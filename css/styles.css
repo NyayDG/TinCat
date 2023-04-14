@@ -1,0 +1,179 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/******************* CLASS SELECTOR ***********************/
+
+/* 01 */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* 02 NAVIGATION BAR */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+/* TITLE */
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* 03 DOWNLOAD BUTTONS. * ALSO INCLUDE CSS ON BUTTONS OF FOOTER */
+.download-buttons {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 19%;
+    transform: rotate(-25deg);
+    position: absolute;
+    right: 22%;
+}
+
+/* FEATURE SECTION */
+
+.feature-box {
+    padding: 5%;
+}
+
+
+.icon {
+    color:#009FBD;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #62CDFF;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+/* TESTIMONIAL SECTION */
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* PRESS SECTION */
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* PRICING SECTION */
+.pricing-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* FOOTER SECTION */
+.social-icon {
+    margin: 20px 10px;
+    text-decoration: none;
+}
+
+/******************** ID SELECTOR **************************/
+
+/* TITLE */
+#title {
+    background-color: #AA77FF;
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+/* FEATURES SECTION */
+#features {
+    background-color: #fff;
+    position: relative;
+}
+
+/* TESTIMONIAL SECTION */
+#testimonials {
+    background-color: #009FBD;
+    color: #fff;
+}
+
+#press {
+    background-color: #009FBD;
+    padding-bottom: 3%;
+}
+
+/* PRICING SECTION */
+#pricing {
+    padding: 100px;
+}
+
+/* CTA SECTION */
+
+#cta {
+    background-color: #009FBD;
+    color: #fff;
+
+}
+
+/*************** MEDIA QUERY ************************/
+@media (max-width: 1020px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        width: 45%;
+        transform: rotate(0);
+    }
+}
